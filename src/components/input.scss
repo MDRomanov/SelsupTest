@@ -1,0 +1,21 @@
+.input {
+    display: flex;
+    min-width: 100%;
+    justify-content: space-between;
+    margin: 2vmin 0 2vmin 0;
+    align-items: center;
+    gap: 3vmin;
+}
+
+input[type=text] {
+    width: 60%;
+    max-width: 75%;
+    border-radius: 8px;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+  }
+
+.params {
+    font-weight: bolder;
+}
